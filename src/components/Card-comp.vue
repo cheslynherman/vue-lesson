@@ -1,6 +1,6 @@
 <template>
-  <router-link :to="{ name: 'Tutorial', params: { id: tutorial.id } }">
-    <img :src="tutorial.img_url" alt="tutorial.title" />
+  <router-link :to="{ name: 'tutorial', params: { id: tutorial.id } }">
+    <img :src="tutorial.image_url" :alt="tutorial.title" />
     <h3>{{ tutorial.title }}</h3>
 
     <p>Description: {{ tutorial.desc }}</p>

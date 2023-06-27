@@ -1,8 +1,8 @@
 <template>
     <nav class="topnav">
         <router-link class="active" to="/">Home</router-link>
-        <router-link to="/">Tutorials</router-link>
-        <router-link to="/">About</router-link>
+        <router-link to="/tutorials">Tutorials</router-link>
+        <router-link to="/about">About</router-link>
 
     </nav>
 </template>
