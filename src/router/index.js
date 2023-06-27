@@ -19,11 +19,11 @@ const routes = [
   {
     path: '/tutorials',
     name: 'tutorials',
-    component: () => import ('../views/TutorialsView.vue')
+    component: () => import ('../views/TutorialsView.vue'),
   },
 
   {
-    path: '/tutorial/:id',
+    path: '/tutorials/:id',
     name: 'tutorial',
     component: () => import ('../views/TutorialView.vue'),
     props: true,

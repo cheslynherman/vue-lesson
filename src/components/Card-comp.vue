@@ -10,9 +10,7 @@
 
 <script>
 export default {
-    props: ["tutorial"]
-}
+  props: ["tutorial"],
+};
 </script>
-<style>
-    
-</style>
+<style></style>
